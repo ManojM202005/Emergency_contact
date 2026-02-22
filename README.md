@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emergency Contact - Sudharshanaraaj</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #d32f2f;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f7f9fc;
+}
+
+.section h3 {
+    margin-top: 0;
+    color: #2a5298;
+}
+
+.call-btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 15px;
+    background: #2a5298;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.call-btn:hover {
+    background: #1e3c72;
+}
+
+.alert {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffebee;
+    border-left: 5px solid red;
+    font-weight: bold;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚨 Emergency Contact Information</h1>
+
+<div class="section">
+<h3>🧑 Personal Details</h3>
+<p><b>Name:</b> Sudharshanaraaj N</p>
+<p><b>Phone:</b> +91 97515 08255</p>
+<p><b>Blood Group:</b> A+</p>
+<p><b>Address:</b> 13/16 MGR Nagar 5th Street, PN Road, Tirupur - 641602</p>
+<a href="tel:+919751508255" class="call-btn">📞 Call</a>
+</div>
+
+<div class="section">
+<h3>👨 Father Details</h3>
+<p><b>Name:</b> Nithiyanandam V</p>
+<p><b>Phone:</b> 9597329800</p>
+<a href="tel:9597329800" class="call-btn">📞 Call Father</a>
+</div>
+
+<div class="section">
+<h3>👩 Mother Details</h3>
+<p><b>Name:</b> Maheswari K</p>
+<p><b>Phone:</b> 8610265341</p>
+<a href="tel:8610265341" class="call-btn">📞 Call Mother</a>
+</div>
+
+<div class="alert">
+If found injured or unconscious, please contact immediately.
+</div>
+
+</div>
+
+</body>
+</html>
